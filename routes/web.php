@@ -8,6 +8,16 @@ use App\Http\Controllers\ChauffeurController;
 use App\Http\Controllers\VoitureController;
 use App\Http\Controllers\NavetteController;
 
+Route::get('/',function(){
+    return view('FrontEnd.index');
+});
+
+Route::get('/ ABOUT',function(){
+    return view('FrontEnd.about');
+});
+
+
+
 // Routes pour les étudiants
 Route::resource('etudiants', EtudiantController::class);
 
