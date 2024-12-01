@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Teaser</title>
+  <title>AFRIK'ELASI</title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -42,7 +42,7 @@
                     Login
                   </a>
                   <a class="" href="">
-                    Sign up
+                    Inscrivez-vous
                   </a>
                 </li>
               </div>
@@ -63,11 +63,11 @@
             </div>
             <div id="myNav" class="overlay">
               <div class="overlay-content">
-                <a href="index.html">HOME</a>
-                <a href="about.html">ABOUT</a>
-                <a href="house.html">HOUSE</a>
-                <a href="price.html">PRICING</a>
-                <a href="contact.html">CONTACT US</a>
+                <a href="index.html">Accueil</a>
+                <a href="about.html">A propos </a>
+                <a href="house.html">Procedure</a>
+                <a href="price.html">Impression</a>
+                <a href="contact.html">Contactez-nous</a>
               </div>
             </div>
           </div>
@@ -82,16 +82,16 @@
           <div class="col-md-4 offset-md-1">
             <div class="detail-box">
               <h1>
-                <span> Modern</span> <br>
-                Apartment <br>
-                House
+                <span> Moderne</span> <br>
+                confort <br>
+                Abordable
               </h1>
               <p>
-                It is a long established fact that a reader will be distracted by the readable content of
+                Nous vous offrons des appartements confortabe à des prix très abordable et
               </p>
               <div class="btn-box">
                 <a href="" class="">
-                  Read More
+                  En savoir plus
                 </a>
               </div>
             </div>
@@ -153,7 +153,7 @@
               some form, by injected humour, or randomised words
             </p>
             <a href="">
-              Read More
+              Lire plus
             </a>
           </div>
         </div>
@@ -358,7 +358,7 @@
           </div>
           <div class="btn-box">
             <a href="">
-              Buy Now
+              louez maintenant
             </a>
           </div>
         </div>
@@ -400,7 +400,7 @@
           </div>
           <div class="btn-box">
             <a href="">
-              Buy Now
+              Louer maintenant
             </a>
           </div>
         </div>
@@ -418,7 +418,7 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                Very Good Deal For House
+                Très bon affaire pour la maison
               </h2>
             </div>
             <p>
@@ -495,10 +495,10 @@
             </div>
             <div class="detail-box">
               <h3>
-                10000+
+                100000+
               </h3>
               <h5>
-                Satisfied Customers
+                Clients satisfaits
               </h5>
             </div>
           </div>
@@ -510,10 +510,10 @@
             </div>
             <div class="detail-box">
               <h3>
-                1500+
+                40000+
               </h3>
               <h5>
-                Cheap Rates
+                Tarifs bon marché
               </h5>
             </div>
           </div>
@@ -521,7 +521,7 @@
       </div>
       <div class="btn-box">
         <a href="">
-          Get A Quote
+          Obtenir un avis 
         </a>
       </div>
     </div>
@@ -548,7 +548,7 @@
                 </div>
                 <div class="detail-box">
                   <h5>
-                    <span>Majority</span>
+                    <span>Majorité</span>
                     <hr>
                   </h5>
                   <p>
@@ -566,7 +566,7 @@
                 </div>
                 <div class="detail-box">
                   <h5>
-                    <span>Majority</span>
+                    <span>Majorité</span>
                     <hr>
                   </h5>
                   <p>
@@ -584,7 +584,7 @@
                 </div>
                 <div class="detail-box">
                   <h5>
-                    <span>Majority</span>
+                    <span>Majorité</span>
                     <hr>
                   </h5>
                   <p>
@@ -616,7 +616,7 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          Get In Touch
+          Contactez
         </h2>
       </div>
     </div>
@@ -633,20 +633,20 @@
           <div class="form_container">
             <form action="">
               <div>
-                <input type="text" placeholder="Name" />
+                <input type="text" placeholder="Nom" />
               </div>
               <div>
                 <input type="email" placeholder="Email" />
               </div>
               <div>
-                <input type="text" placeholder="Phone Number" />
+                <input type="text" placeholder="Numero de telephone" />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Message" />
+                <input type="text" class="boite de dialogue" placeholder="Message" />
               </div>
               <div class="d-flex ">
                 <button>
-                  Send
+                  Envoyer
                 </button>
               </div>
             </form>
@@ -668,7 +668,7 @@
         <div class="col-md-3">
           <div class="info_contact">
             <h5>
-              About Apartment
+              A propos de l'appartement
             </h5>
             <div>
               <div class="img-box">

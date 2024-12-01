@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Etudiant extends Model
 {
     // Un étudiant peut avoir zéro ou un logement
-    public function logement()
+   /* public function logement()
     {
         return $this->hasOne(Logement::class);
     }
@@ -17,5 +17,17 @@ class Etudiant extends Model
     public function navettes()
     {
         return $this->belongsToMany(Navette::class);
-    }
+    }*/
+
+
+    use HasFactory;
+
+    protected $fillable = [
+        'PreEtu',     // Prénom de l'étudiant
+        'NomEtu',     // Nom de l'étudiant
+        'EmailEtu',   // Email de l'étudiant
+        'TelEtu',     // Téléphone de l'étudiant
+        'PaysResi',   // Pays de résidence de l'étudiant
+    ];
+
 }

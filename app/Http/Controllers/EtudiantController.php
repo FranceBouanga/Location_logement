@@ -6,13 +6,9 @@ use Illuminate\Http\Request;
 
 class EtudiantController extends Controller
 {
-   /* public function index()
-    {
-        $etudiants = Etudiant::all();
-        return view('etudiants.index', compact('etudiants'));
-    }
+   
 
-    public function create()
+   /* public function create()
     {
         return view('etudiants.create');
     }
@@ -45,7 +41,7 @@ class EtudiantController extends Controller
         return redirect()->route('etudiants.index');
     }*/
     
-    public function liste_etudiant()
+    public function index()
     {
         $etudiants = Etudiant::all();
         return view('etudiant.liste', compact('etudiants'));

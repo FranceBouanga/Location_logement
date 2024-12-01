@@ -12,9 +12,10 @@ Route::get('/',function(){
     return view('FrontEnd.index');
 });
 
-Route::get('/ ABOUT',function(){
-    return view('FrontEnd.about');
-});
+Route::get('etudiant/ajouter',function(){
+    return view('etudiant.ajouter');
+})->name('ajouter');
+
 
 
 
@@ -35,3 +36,13 @@ Route::resource('voitures', VoitureController::class);
 
 // Routes pour les navettes
 Route::resource('navettes', NavetteController::class);
+
+//reproduction du projet rattrapage
+
+Route::get('/supprimer-etudiant/{id}', [EtudiantController::class, 'destroy']);
+Route::get('/modifier-etudiant/{id}', [EtudiantController::class, 'edit']);
+Route::post('/modifier-etudiant/traitement', [EtudiantController::class, 'update']);
+//Route::get('/etudiant', [EtudiantController::class, 'index']);
+Route::get('/ajouter-etudiant', [EtudiantController::class, 'create']);
+Route::post('/ajouter-etudiant/traitement', [EtudiantController::class, 'store']);
+
