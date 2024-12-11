@@ -24,10 +24,7 @@ class EtudiantController extends Controller
         return view('etudiants.show', compact('etudiant'));
     }
 
-    public function edit(Etudiant $etudiant)
-    {
-        return view('etudiants.edit', compact('etudiant'));
-    }
+   
 
     public function update(Request $request, Etudiant $etudiant)
     {
@@ -35,11 +32,7 @@ class EtudiantController extends Controller
         return redirect()->route('etudiants.index');
     }
 
-    public function destroy(Etudiant $etudiant)
-    {
-        $etudiant->delete();
-        return redirect()->route('etudiants.index');
-    }*/
+   */
     
     public function index()
     {
@@ -59,6 +52,7 @@ class EtudiantController extends Controller
             'NomEtu' => 'required|string|max:50',
             'EmailEtu' => 'required|email|max:50|unique:etudiants,EmailEtu',
             'TelEtu' => 'required|string|max:50',
+            'SexEtu' => 'required|string|max:50',
             'PaysResi' => 'required|string|max:50',
         ]);
 
@@ -67,10 +61,17 @@ class EtudiantController extends Controller
         $etudiant->NomEtu = $request->NomEtu;
         $etudiant->EmailEtu = $request->EmailEtu;
         $etudiant->TelEtu = $request->TelEtu;
+        $etudiant->SexEtu = $request->SexEtu;
         $etudiant->PaysResi = $request->PaysResi;
         $etudiant->save();
 
-        return redirect('/ajouter')->with('status', 'L\'étudiant a bien été ajouté avec succès.');
+        return back()->with('status', 'L\'étudiant a  été ajouté avec succès.');
+    }
+
+
+    public function edit(Etudiant $etudiant)
+    {
+        return view('etudiant.modifier', compact('etudiant'));
     }
 
     public function modifier_etudiant($id)
@@ -86,6 +87,7 @@ class EtudiantController extends Controller
             'NomEtu' => 'required|string|max:50',
             'EmailEtu' => 'required|email|max:50|unique:etudiants,EmailEtu,' . $request->id,
             'TelEtu' => 'required|string|max:50',
+            'SexEtu' => 'required|string|max:50',
             'PaysResi' => 'required|string|max:50',
         ]);
 
@@ -94,6 +96,7 @@ class EtudiantController extends Controller
         $etudiant->NomEtu = $request->NomEtu;
         $etudiant->EmailEtu = $request->EmailEtu;
         $etudiant->TelEtu = $request->TelEtu;
+        $etudiant->SexEtu = $request->SexEtu;
         $etudiant->PaysResi = $request->PaysResi;
         $etudiant->update();
 
@@ -105,5 +108,13 @@ class EtudiantController extends Controller
         $etudiant = Etudiant::find($id);
         $etudiant->delete();
         return redirect('/etudiant')->with('status', 'L\'étudiant a bien été supprimé avec succès.');
+    }
+
+    public function destroy($id)
+    {
+        $etudiant = Etudiant::find($id);
+        $etudiant->delete();
+        return back()->with('status', 'L\'étudiant a  été supprimé avec succès.');
+
     }
 }

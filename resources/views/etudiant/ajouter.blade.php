@@ -22,7 +22,7 @@
           <li class="alert alert-danger">{{ $error }}</li>
         @endforeach
      </ul>
-       <form action="/ajouter/etudiant" method="POST" class="form-group">
+       <form action="/ajouter.etudiant/traitement" method="POST" class="form-group">
     @csrf
          <div class="form-group">
             <label for="PreEtu" class="form-label">Prénom</label>
@@ -42,6 +42,14 @@
          <div class="form-group">
             <label for="TelEtu" class="form-label">Téléphone</label>
             <input type="text" class="form-control" id="TelEtu" name="TelEtu">
+         </div>
+
+         <div class="form-group">
+            <label for="SexEtu" class="form-label">Sexe</label>
+            <select id="SexEtu" name="SexEtu">
+            <option value="Homme">Homme</option>
+            <option value="Femme">Femme</option>
+            </select>
          </div>
 
          <div class="form-group">

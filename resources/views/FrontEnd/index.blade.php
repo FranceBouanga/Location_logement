@@ -39,7 +39,7 @@
               <div class="User_option">
                 <li class="">
                   <a class="mr-4" href="">
-                    Login
+                    Connexion
                   </a>
                   <a class="" href="">
                     Inscrivez-vous
@@ -65,8 +65,8 @@
               <div class="overlay-content">
                 <a href="index.html">Accueil</a>
                 <a href="about.html">A propos </a>
-                <a href="house.html">Procedure</a>
-                <a href="price.html">Impression</a>
+                <a href="house.html">Logement</a>
+                <a href="price.html">Navette</a>
                 <a href="contact.html">Contactez-nous</a>
               </div>
             </div>
@@ -87,7 +87,7 @@
                 Abordable
               </h1>
               <p>
-                Nous vous offrons des appartements confortabe à des prix très abordable et
+                Nous vous offrons des logements confortabe à des prix abordable.Votre bien être notre priorité 
               </p>
               <div class="btn-box">
                 <a href="" class="">
@@ -108,14 +108,14 @@
       <form action="">
         <div class=" form-row">
           <div class="col-md-5">
-            <input type="text" class="form-control" placeholder="Serach Your Categories ">
+            <input type="text" class="form-control" placeholder=" Categories de logement ">
           </div>
           <div class="col-md-5">
-            <input type="text" class="form-control" placeholder="Location ">
+            <input type="text" class="form-control" placeholder=" Service de navette ">
           </div>
           <div class="col-md-2">
             <button type="submit" class="">
-              search
+              Rechercher
             </button>
           </div>
         </div>
@@ -144,13 +144,15 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                About Our Apartment
+                 Apropos du service de navette
               </h2>
             </div>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in
-              some form, by injected humour, or randomised words
+               Les étudiants qui viennent d'ailleurs ont la possibilité
+               de faire appel à nos service de navette, qui va consister 
+               à aller vous chercher à l'aéroport jusqu'à votre logement.
+               Pour se faire, vous avez juste besion de faire la demande.
+            
             </p>
             <a href="">
               Lire plus
@@ -169,10 +171,12 @@
     <div class="container-fluid">
       <div class="heading_container">
         <h2>
-          House For Sale
+        A propos des logements
         </h2>
         <p>
-          There are many variations of passages of Lorem Ipsum available, but the
+        Il y' a plusieurs type de logement comme: les appartements, 
+              les villa, les studio,les chambres independantes.
+             Vos être libre de choisir ce que vous voulez.
         </p>
       </div>
       <div class="sale_container">
@@ -182,10 +186,11 @@
           </div>
           <div class="detail-box">
             <h6>
-              apertments house
+              appartements
             </h6>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but
+              Les appartements sont dans des immeubles de plusieurs niveaux.
+              
             </p>
           </div>
         </div>
@@ -195,10 +200,12 @@
           </div>
           <div class="detail-box">
             <h6>
-              apertments house
+              Chambre indépendante
             </h6>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but
+            Les chambres indépendantes sont une alternative 
+            économique pour les étudiants qui souhaitent 
+            un espace privé sans louer un logement complet.
             </p>
           </div>
         </div>
@@ -208,10 +215,12 @@
           </div>
           <div class="detail-box">
             <h6>
-              apertments house
+              Villas
             </h6>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but
+            Les villas offrent un cadre de vie luxueux et spacieux,
+             souvent prisées par les étudiants arrivant en groupe
+             ou ceux qui recherchent plus d’intimité et de confort
             </p>
           </div>
         </div>
@@ -221,10 +230,11 @@
           </div>
           <div class="detail-box">
             <h6>
-              apertments house
+              Appartementss
             </h6>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but
+            Les appartements sont des choix populaires pour les étudiants
+            étrangers à Dakar en raison de leur confort et de leur polyvalence.
             </p>
           </div>
         </div>
@@ -234,7 +244,7 @@
           </div>
           <div class="detail-box">
             <h6>
-              apertments house
+              studio
             </h6>
             <p>
               There are many variations of passages of Lorem Ipsum available, but
@@ -247,7 +257,7 @@
           </div>
           <div class="detail-box">
             <h6>
-              apertments house
+              appartement
             </h6>
             <p>
               There are many variations of passages of Lorem Ipsum available, but
@@ -257,7 +267,7 @@
       </div>
       <div class="btn-box">
         <a href="">
-          Find More
+          Plus
         </a>
       </div>
     </div>
@@ -274,7 +284,14 @@
           Our Pricing
         </h2>
         <p>
-          There are many variations of passages of Lorem Ipsum available, but the
+        À Dakar, les appartements destinés aux étudiants
+         étrangers jouent un rôle essentiel dans leur intégration 
+         et leur réussite académique. Ces logements varient en termes
+         de types, allant des studios individuels aux appartements
+         partagés, en passant par des villas et des maisons adaptées
+         aux groupes. Ces options répondent aux besoins spécifiques
+         des étudiants en matière de confort,de sécurité, et 
+         d'accessibilité.
         </p>
       </div>
       <div class="price_container">

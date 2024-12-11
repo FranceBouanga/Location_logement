@@ -27,6 +27,7 @@ class Etudiant extends Model
         'NomEtu',     // Nom de l'étudiant
         'EmailEtu',   // Email de l'étudiant
         'TelEtu',     // Téléphone de l'étudiant
+        'SexEtu',
         'PaysResi',   // Pays de résidence de l'étudiant
     ];
 

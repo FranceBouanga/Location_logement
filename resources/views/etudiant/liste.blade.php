@@ -29,6 +29,7 @@
               <th>Nom</th>
               <th>Email</th>
               <th>Téléphone</th>
+              <th>Sexe</th>
               <th>Pays de résidence</th>
               <th>Actions</th>
             </tr>
@@ -41,6 +42,7 @@
               <td>{{ $etudiant->NomEtu }}</td>
               <td>{{ $etudiant->EmailEtu }}</td>
               <td>{{ $etudiant->TelEtu }}</td>
+              <td>{{ $etudiant->SexEtu }}</td>
               <td>{{ $etudiant->PaysResi }}</td>
               <td>
                 <a href="/modifier/etudiant/{{ $etudiant->id }}" class="btn btn-info">Modifier</a>

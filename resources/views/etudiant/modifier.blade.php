@@ -45,6 +45,15 @@
     <label for="TelEtu" class="form-label">Téléphone</label>
     <input type="text" class="form-control" id="TelEtu" name="TelEtu" value="{{ $etudiant->TelEtu }}">
     </div>
+    
+    <div class="form-group">
+      <label for="SexEtu" class="form-label">Sexe</label>
+      <select id="SexEtu" name="SexEtu" value="{{ $etudiant->SexEtu }}">
+      <option value="Homme">Homme</option>
+      <option value="Femme">Femme</option>
+      </select>
+    </div>
+    
 
     <div class="form-group">
     <label for="PaysResi" class="form-label">Pays de résidence</label>
