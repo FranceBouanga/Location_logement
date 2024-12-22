@@ -7,6 +7,8 @@ use App\Http\Controllers\BayeurController;
 use App\Http\Controllers\ChauffeurController;
 use App\Http\Controllers\VoitureController;
 use App\Http\Controllers\NavetteController;
+use App\Http\Controllers\AuthController;
+
 
 Route::get('/',function(){
     return view('FrontEnd.index');
@@ -50,3 +52,15 @@ Route::post('/ajouter.etudiant/traitement', [EtudiantController::class, 'ajouter
     dd($request->all());
 });
 */
+Route::get('/chauffeur',[ChauffeurController::class,'index'])->name('CH');
+Route::post('/chauffeur',[ChauffeurController::class,'store'])->name('ajoutChauffeur');
+Route::put('/chauffeur/{chauffeur}',[ChauffeurController::class,'update'])->name('updateChauffeur');
+Route::delete('/chauffeur/{chauffeur}',[ChauffeurController::class,'destroy'])->name('deleteChauffeur');
+
+
+
+// Page de connexion
+Route::get('/login', [AuthController::class, 'login'])->name('login');
+
+// Page d'inscription
+Route::get('/register', [AuthController::class, 'register'])->name('register');

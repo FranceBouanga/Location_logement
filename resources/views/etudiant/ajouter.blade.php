@@ -45,18 +45,37 @@
          </div>
 
          <div class="form-group">
-            <label for="SexEtu" class="form-label">Sexe</label>
-            <select id="SexEtu" name="SexEtu">
+         <label for="SexEtu" class="form-label">Sexe</label>
+         <select id="SexEtu" name="SexEtu">
             <option value="Homme">Homme</option>
             <option value="Femme">Femme</option>
             </select>
          </div>
 
          <div class="form-group">
-            <label for="PaysResi" class="form-label">Pays de résidence</label>
-            <input type="text" class="form-control" id="PaysResi" name="PaysResi">
+         <label for="PaysResi" class="form-label">Pays de Residence</label>
+         <select id="PaysResi" name="PaysResi">
+            <option value="Benin">Benin</option>
+            <option value="Burkina Faso ">Burkina Faso</option>
+            <option value="Cameroun">Cameroun</option>
+            <option value="Centre afrique">Centre afrique</option>
+            <option value="Congo Brazza">Congo Brazza</option>
+            <option value="Congo Kinshasa">Congo Kinshasa</option>
+            <option value="Cote d'ivoire">Cote d'ivoire</option>
+            <option value="Gabon">Gabon</option>
+            <option value="Gambie">Gambie</option>
+            <option value="Guiné Bissau">Guiné Bissau</option>
+            <option value="Guiné Conacry">Guiné Conacry</option>
+            <option value="Mali">Mali</option>
+            <option value="Mauritanie ">Mauritanie</option>
+            <option value="Niger ">Niger</option>
+            <option value="Nigeria ">Nigeria</option>
+            <option value="Sénégal ">Sénégal</option>
+            <option value="Togo ">Togo</option>
+            </select>
          </div>
 
+        
          <br>
          <button type="submit" class="btn btn-primary"> AJOUTER UN ÉTUDIANT</button>
          <br>
